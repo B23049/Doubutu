@@ -10,7 +10,7 @@ class Board {
     mArea[1] = new MochigomaArea(5,0,1,4);
   }
 
-  void draw(){
+void draw(){
     bArea.draw();
     mArea[0].draw();
     mArea[1].draw();
